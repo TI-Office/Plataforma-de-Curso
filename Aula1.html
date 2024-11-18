@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Microsoft Word - Tema Futurista</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background-color: #0b1121;
+            color: #f0f0f5;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #021F3A, #0074D9);
+            color: #ffffff;
+            text-align: center;
+            padding: 50px 20px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .modules {
+            margin: 50px 0;
+        }
+
+        .module-item {
+            margin-bottom: 20px;
+            padding: 20px;
+            background: #1a2236;
+            border: 2px solid #3d8fd8;
+            cursor: pointer;
+            position: relative;
+            border-radius: 8px;
+            transition: background-color 0.3s, transform 0.2s;
+            color: #b0c4de;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        .module-item:hover {
+            background-color: #223A5E;
+            transform: scale(1.02);
+        }
+
+        .module-item.active {
+            background-color: #0d2540;
+            color: #00c3ff;
+            border-color: #00c3ff;
+            transform: scale(1.03);
+            box-shadow: 0 8px 16px rgba(0, 195, 255, 0.3);
+        }
+
+        .module-item h2 {
+            font-size: 1.6rem;
+            color: inherit;
+        }
+
+        .module-content {
+            display: none;
+            padding: 20px;
+            background-color: #102030;
+            border-top: 1px solid #004080;
+            border-radius: 8px;
+            color: #b0c4de;
+            margin-top: 10px;
+        }
+
+        .module-content p {
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        .module-content video {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        .exercise {
+            margin-top: 20px;
+            background-color: #022a47;
+            padding: 15px;
+            border-radius: 8px;
+            color: #f0f0f5;
+            border-left: 5px solid #00c3ff;
+            box-shadow: 0 4px 8px rgba(0, 195, 255, 0.2);
+        }
+
+        .exercise h3 {
+            font-size: 1.2rem;
+            color: #00c3ff;
+            margin-bottom: 8px;
+        }
+
+        .exercise p {
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+
+        .exercise a {
+            color: #00c3ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .exercise a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            background-color: #102030;
+            color: #7f8fa6;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 50px;
+            border-top: 1px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Curso de Microsoft Word</h1>
+            <p>Domine as principais ferramentas do Microsoft Word</p>
+        </div>
+    </header>
+
+    <section class="modules">
+        <div class="container">
+            <div class="module-item" onclick="toggleModule(this)">
+                <h2>Página Inicial</h2>
+                <div class="module-content">
+                  <h4>FOMATAÇÃO DE TEXTO</h4>
+                  <br>
+                  <img src="D:\LABORATÓRIO\Luan\Acompanhamento Projetos\instituto\instituto\Word\img1w.png">
+                    <h3><p>Formatar um texto significa ajustar a aparência e a organização das palavras para deixá-lo visualmente atraente, legível e estruturado.<br> A formatação pode envolver mudanças de tipo, tamanho e cor de fonte, alinhamento de parágrafos, espaçamento entre linhas, entre outras opções. Essas alterações são importantes para transmitir a mensagem de maneira clara e profissional, especialmente no ambiente digital, onde a apresentação do conteúdo pode influenciar a compreensão e o interesse do leitor.</p><br></h3>
+
+<h3><p>No Microsoft Word, a guia Página Inicial é essencial para a formatação básica. Ela contém o grupo Alinhamento e o grupo Fonte, que permitem realizar as principais alterações visuais no texto:</p></h3>
+<h3><p>
+Grupo Fonte: Aqui, você pode escolher a fonte (tipo de letra), o tamanho, a cor, e aplicar efeitos como negrito, itálico e sublinhado. Esses recursos ajudam a destacar informações importantes e melhorar a aparência geral do texto.
+</p></h3>
+Grupo Alinhamento: Este grupo permite alinhar o texto à esquerda, ao centro, à direita ou justificar, deixando o texto alinhado dos dois lados da margem. O alinhamento adequado cria uma apresentação mais organizada e facilita a leitura.
+<h3><br><p>
+Dominar a formatação é importante hoje em dia, pois um texto bem formatado pode chamar mais atenção, melhorar a comunicação e transmitir profissionalismo, seja em documentos acadêmicos, propostas de trabalho, ou posts em redes sociais."</p></h3>
+                    <video controls autoplay muted>
+                        <source src="D:\LABORATÓRIO\Luan\Acompanhamento Projetos\instituto\instituto\Word\videos\marcadagua.mp4" type="video/mp4">
+                        Seu navegador não suporta o vídeo.
+                    </video>
+                    <div class="exercise">
+                        <h3>Exercício 1</h3>
+                        <p><a href="file:///D:/LABORAT%C3%93RIO/Luan/Acompanhamento%20Projetos/instituto/instituto/PDF/Word/Texto1.pdf" target="_blank">Acesse o PDF com as instruções do exercício</a></p>
+                        <h3>Exercício 2</h3>
+                        <p><a href="file:///D:/LABORAT%C3%93RIO/Luan/Acompanhamento%20Projetos/instituto/instituto/PDF/Word/Texto2.pdf" target="_blank">Acesse o PDF com as instruções do exercício</a></p>
+                        <h3>Exercício 3</h3>
+                        <p><a href="file:///D:/LABORAT%C3%93RIO/Luan/Acompanhamento%20Projetos/instituto/instituto/PDF/Word/Texto3.pdf" target="_blank">Acesse o PDF com as instruções do exercício</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="module-item" onclick="toggleModule(this)">
+                <h2>Inserir</h2>
+                <div class="module-content">
+                    <p>Digite o seguinte texto para praticar...</p>
+                    <video controls autoplay muted>
+                        <source src="video-inserir.mp4" type="video/mp4">
+                        Seu navegador não suporta o vídeo.
+                    </video>
+                    <div class="exercise">
+                        <h3>Exercício 1</h3>
+                       <p><a href="file:///D:/LABORAT%C3%93RIO/Luan/Acompanhamento%20Projetos/instituto/instituto/PDF/Word/Texto1%20-%20A%20Jornada%20da%20Simplicidade.pdf" target="_blank">Acesse o PDF com as instruções do exercício</a></p>
+                        <h3>Exercício 2</h3>
+                        <p><a href="file:///D:/LABORAT%C3%93RIO/Luan/Acompanhamento%20Projetos/instituto/instituto/PDF/Word/Texto1%20-%20A%20Jornada%20da%20Simplicidade.pdf" target="_blank">Acesse o PDF com as instruções do exercício</a></p>
+                        <h3>Exercício 3</h3>
+                        <p><a href="file:///D:/LABORAT%C3%93RIO/Luan/Acompanhamento%20Projetos/instituto/instituto/PDF/Word/Texto1%20-%20A%20Jornada%20da%20Simplicidade.pdf" target="_blank">Acesse o PDF com as instruções do exercício</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 - Curso de Microsoft Word | Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleModule(moduleItem) {
+            document.querySelectorAll('.module-item').forEach(item => {
+                if (item !== moduleItem) {
+                    item.classList.remove('active');
+                    item.querySelector('.module-content').style.display = 'none';
+                    item.querySelector('video').pause();
+                }
+            });
+
+            const content = moduleItem.querySelector('.module-content');
+            const video = moduleItem.querySelector('video');
+            const isActive = moduleItem.classList.contains('active');
+
+            if (isActive) {
+                moduleItem.classList.remove('active');
+                content.style.display = 'none';
+                video.pause();
+            } else {
+                moduleItem.classList.add('active');
+                content.style.display = 'block';
+                video.play();
+            }
+        }
+    </script>
+</body>
+</html>
